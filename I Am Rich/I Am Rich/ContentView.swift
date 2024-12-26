@@ -10,14 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Color(.systemTeal)
+            Color(red: 0.16, green: 0.50, blue: 0.73)
                 .edgesIgnoringSafeArea(.all)
             VStack {
                 Text("I Am The Doctor")
                     .font(.system(size: 40))
                     .fontWeight(.bold)
                 .foregroundStyle(Color.white)
-                Image("diamond")
+                Image("evolinho")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 200, height: 200, alignment: .center)
